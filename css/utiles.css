@@ -1,0 +1,22 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 4px 6px;
+background: orange;
+color: black;
+border: 2px solid red;
+border-radius: 8px;
+cursor: pointer;
+}
+.my-1{
+    margin: 5px 0;
+}
+.my-2{
+    margin: 32px 0;
+}
+.text-center{
+    text-align:center;
+}

@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: skyblue;
+  border: 2px solid red;
+}
+nav {
+  display: flex;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+.logo img {
+  width: 90px;
+  padding: 0 25px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 58px;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 20px;
+}
+nav ul li a {
+  color: brown;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: blue;
+  font-weight: bold;
+}
+
+.container {
+  min-height: calc(100vh - 58px - 12vh);
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  width: 30vw;
+  height: 34px;
+  border-radius: 12px;
+  margin: 0 12px 0 56px;
+  padding: 0 12px;
+}
+.slider {
+  width: 87vw;
+  margin: 12px auto;
+  overflow: hidden;
+}
+.card {
+  max-width: 92vw;
+  margin: 37px auto;
+  background-color: rgb(234, 249, 255);
+}
+.card h2{
+  font-family: monospace;
+}
+.card-item{
+  display: inline-flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 0 20px;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  overflow:auto;
+
+}
+body{
+  background-color: rgb(212, 236, 246);
+}
+footer {
+  background-color: skyblue;
+  height: 12vh;
+}
